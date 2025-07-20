@@ -1,0 +1,256 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+}
+.container {
+  width: 100%;
+}
+.container .landing {
+  width: 100%;
+  position: absolute;
+}
+.container .intro {
+  padding-top: 100px;
+  text-align: center;
+}
+.container .intro .img {
+  margin-bottom: 50px;
+}
+
+.container .intro .text {
+  padding: 15px;
+}
+.container .intro .text h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: hsl(210, 10%, 33%);
+}
+.container .intro .text p {
+  line-height: 1.6;
+  max-width: 550px;
+  color: hsl(201, 11%, 66%);
+  margin: auto;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+.container .buttons {
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container .buttons button {
+  padding: 15px 25px;
+  border: none;
+  font-size: 17px;
+  font-weight: bold;
+  border-radius: 100px;
+  color: white;
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: -0.5px 0.5px 0px 0.5px hsl(171, 67%, 33%),-2px 2px 5px 1px hsl(171, 66%, 44%);
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+.container .buttons button:last-child {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: -0.5px 0.5px 0px 0.5px hsl(233, 64%, 59%), -1px 1px 3px 1px hsl(233, 100%, 69%);
+}
+.container .text2 {
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 100px;
+}
+.container .text2 h1 {
+  margin-bottom: 15px;
+  color: hsl(210, 10%, 33%);
+}
+.container .text2 p {
+  max-width: 650px;
+  color: hsl(201, 11%, 66%);
+  margin: auto;
+  font-size: 18px;
+}
+.container .cloud .image {
+  margin-bottom: 50px;
+}
+.container .cloud .image img {
+  width: 100%;
+}
+.container .cloud {
+  padding: 15px;
+
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container .texts {
+  margin-left: 100px;
+}
+.container .texts .card {
+  margin-bottom: 50px;
+}
+.container .texts .card h1 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 25px;
+  color: hsl(210, 10%, 33%);
+}
+.container .texts .card p {
+  max-width: 350px;
+  color: hsl(201, 11%, 66%);
+}
+.container .tablet {
+  padding: 15px;
+}
+.container .tablet .heading {
+  text-align: center;
+  margin-bottom: 25px;
+}
+.container .tablet .heading h1 {
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 25px;
+  color: hsl(210, 10%, 33%);
+}
+.container .tablet .heading p {
+  color: hsl(201, 11%, 66%);
+  max-width: 650px;
+  line-height: 1.6;
+  margin: auto;
+}
+.container .tablet .image2 {
+  text-align: center;
+}
+.container .tablet .image2 img {
+  width: 100%;
+  max-width: 800px;
+}
+.container .endText {
+  text-align: center;
+  padding: 15px;
+}
+.container .endText h1 {
+  color: hsl(210, 10%, 33%);
+
+  margin-bottom: 15px;
+}
+.container .endText p {
+  color: hsl(201, 11%, 66%);
+  font-size: 18px;
+}
+.container .icons {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  padding: 15px;
+  align-items: center;
+  min-height: 400px;
+  justify-content: space-between;
+  text-align: center;
+}
+.container .icons .boxs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+}
+.container .icons .boxs img {
+  margin-bottom: 25px;
+}
+.container .icons .boxs h1 {
+  margin-bottom: 25px;
+  color: hsl(210, 10%, 33%);
+}
+.container .icons .boxs p {
+  text-align: center;
+  color: hsl(201, 11%, 66%);
+  font-size: 18px;
+  max-width: 350px;
+}
+.container .ico {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.container .ico img {
+  margin-bottom: 50px;
+}
+.container .text3 {
+  padding: 15px;
+}
+.container .text3 .textChild {
+  text-align: center;
+}
+.container .text3 .textChild h1 {
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 20px;
+}
+.container .text3 .textChild p {
+  color: hsl(201, 11%, 66%);
+  max-width: 600px;
+  line-height: 1.6;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.footer {
+  background-color: #eee;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  min-height: 150px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.footer .endLogo {
+  width: 50px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+.footer ul {
+  width: 600px;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: start;
+  margin-bottom: 30px;
+}
+.footer ul li {
+  font-size: 20px;
+  color: hsl(240, 0%, 46%);
+}
+
+.footer .endIcons img {
+  margin-right: 15px;
+}
+
+@media (max-width: 1230px) {
+  .container .cloud {
+    justify-content: center;
+  }
+  .container .texts {
+    text-align: center;
+    margin: 0;
+  }
+  .container .icons {
+    justify-content: center;
+  }
+  .container .ico {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer ul {
+    width: 100%;
+  }
+}
